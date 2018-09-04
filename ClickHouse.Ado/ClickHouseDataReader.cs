@@ -204,11 +204,21 @@ namespace ClickHouse.Ado
 
         public bool Read()
         {
-            if(_currentBlock==null)
+            if (_currentBlock == null)
                 throw new InvalidOperationException("Trying to read beyond end of stream.");
             _currentRow++;
             if (_currentBlock.Rows <= _currentRow)
-                return false;
+            {
+                if (!NextResult())
+                {
+                    return false;
+                }
+                _currentRow++;
+                if (_currentBlock.Rows <= _currentRow)
+                {
+                    return false;
+                }
+            }
             return true;
         }
 

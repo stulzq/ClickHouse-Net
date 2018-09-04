@@ -11,7 +11,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>ClickHouse.Ado</AssemblyName>
 
-    <PackageId>ClickHouse.Ado</PackageId>
+    <PackageId>Geekbuying.ClickHouse.Ado</PackageId>
     <PackageTags>ClickHouse;connector;ado.net;netstandard;netcore;net45</PackageTags>
     <PackageProjectUrl>https://github.com/killwort/ClickHouse-Net</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/killwort/ClickHouse-Net/blob/master/LICENSE</PackageLicenseUrl>

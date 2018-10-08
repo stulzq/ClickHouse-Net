@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ClickHouse.Ado")]
-[assembly: AssemblyDescription("ClickHouse native ADO driver")]
+[assembly: AssemblyDescription("ClickHouse native ADO driver.Modify datareader and you can use stackexchange dapper.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ClickHouse.Ado")]

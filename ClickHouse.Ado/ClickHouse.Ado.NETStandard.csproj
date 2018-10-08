@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>.NET driver for Yandex ClickHouse. It implements native ClickHouse protocol with data compression (not a wrapper for HTTP client)</Description>
+    <Description>.NET driver for Yandex ClickHouse. It implements native ClickHouse protocol with data compression (not a wrapper for HTTP client).Modify datareader and you can use stackexchange dapper.</Description>
     <AssemblyTitle>ClickHouse.Ado</AssemblyTitle>
     <VersionPrefix>1.1.6</VersionPrefix>
     <Authors>Andrey Zakharov</Authors>
